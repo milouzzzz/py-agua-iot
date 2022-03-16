@@ -597,7 +597,7 @@ class Device(object):
 
     @property
     def gas_temperature(self):
-        return float(self.__get_information_item('temp_gas_flue_get'))
+        return float(0)
 
     @property
     def real_power(self):
